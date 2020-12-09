@@ -4,7 +4,8 @@
   "description": "A backend for TwoRooms.io",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
   },
   "devDependencies": {
     "eslint": "^7.15.0",
@@ -13,7 +14,9 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
